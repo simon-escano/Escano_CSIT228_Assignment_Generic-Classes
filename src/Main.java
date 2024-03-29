@@ -1,8 +1,6 @@
 import Arithmetic.Arithmetic;
 import Map.MyMap;
 
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
         System.out.println("Testing MyMap:");
@@ -16,7 +14,7 @@ public class Main {
         myMap.put("key1", 100);
         System.out.println("Updated value for key 'key1': " + myMap.get("key1"));
 
-        myMap.remove("key2");
+        System.out.println("Removing 'key2': " + myMap.remove("key2"));
         System.out.println("Value for key 'key2' after removal: " + myMap.get("key2"));
 
         System.out.println("________________________________________");
